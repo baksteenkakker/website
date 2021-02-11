@@ -80,7 +80,7 @@ div.container section{
 
 div.container section p{
     margin: 5px 20px;
-    margin-bottom:100px;
+    margin-bottom:8vh;
     color:white;
 }
 
@@ -236,7 +236,7 @@ div.imagecontainer{
 
 div.imagecontainer figure img{
     margin:50px;
-    width:200px;
+    width:8vw;
     border-radius:50%;
 }
 
