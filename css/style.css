@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image:url('../media/background.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+/*-----------------------------Header----------------------------*/
+
+header{
+    width:96%;
+    margin:2%;
+    height:10vh;
+    background-color:black;
+}
+
+header nav ul{
+    margin-top:2.5vh;
+    margin-right:20px;
+
+    display:flex;
+    float:right;
+    flex-direction: row;
+    color:white;
+    list-style: none;
+    font-size:30px;
+}
+
+header nav ul li{
+    padding:5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:white;
+}
+
+header nav a:hover{
+    border-bottom:1px solid white;
+}
+
+header figure{
+    width:10%;
+    height:100%;
+    display:flex;
+    justify-self:center;
+    align-self:center;
+}
+
+/*-----------------------------Header end----------------------------*/
+
+/*-----------------------------Homepage----------------------------*/
+
+div.container{
+    width:90vw;
+    height:60vh;
+    margin:auto;
+
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+div.container section{
+    margin: 0 5%;
+    width:20%;
+    background-color: black;
+
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.container section p{
+    margin: 5px 20px;
+    margin-bottom:100px;
+    color:white;
+}
+
+div.container section figure{
+    width:65%;
+}
+
+div.container section figure img{
+    width:100%;
+}
+
+
+
+/*-----------------------------Homepage end----------------------------*/
+
+
+/*-----------------------------Info page----------------------------*/
+div.infocontainer{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+    width:90vw;
+    height:100%;
+    margin:auto;
+}
+
+.infocont1{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.infocont2{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+}
+
+.figure1{
+    width:300px;
+    height:350px;
+    background-color:violet;
+    margin:5px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.article1{
+    width: 600px;
+    height:350px;
+    background-color: black;
+    margin:5px;
+    color:white;
+
+    box-sizing: border-box;
+}
+
+.article1 p{
+    margin:10px;
+}
+
+.article1 h2{
+    font-size:26px;
+    margin:10px;
+}
+
+.figure2{
+    width: 300px;
+    height:350px;
+    margin:5px;
+    background-color: blue;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.article2{
+    width: 800px;
+    height:350px;
+    margin:5px;
+    background-color: pink;
+}
+
+.article2 h2{
+    font-size: 26px;
+    margin:10px;
+}
+
+.article2 p{
+    margin:10px;
+}
+
+.figure3{
+    width: 400px;
+    height:350px;
+    margin:5px;
+    background-color: green;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----------------------------Info page end----------------------------*/
+
+/*-----------------------------About page----------------------------*/
+div.aboutcontainer{
+    width:80vw;
+    height:70vh;
+    margin:auto;
+
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+div.aboutcontainer section{
+    width: 18vw;
+    height:70vh;
+
+    background-color:black;
+    color:white;
+    padding:20px;
+}
+
+div.aboutcontainer section h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+
+div.imagecontainer{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:center;
+
+    width:60vw;
+    height:70vh;
+    margin:auto;
+
+    background-color: rgba(0, 0, 0, .7)
+    
+}
+
+div.imagecontainer figure img{
+    margin:50px;
+    width:200px;
+    border-radius:50%;
+}
+
+div.imagecontainer figure figcaption{
+    color:white;
+    text-align:center;
+    margin-top:-30px;
+    font-size:20px;
+}
+
+/*-----------------------------About page end----------------------------*/
+
